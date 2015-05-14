@@ -1,8 +1,8 @@
 <%
 Class Geetestlib
 
-Public privateKey
-Public captchaID
+Public 855f4e2ff7260d5175874aadfeb752fd
+Public c0c224408b2056c25a4ea241182fbcfc
 Public challenge
 Public productType
 Public popupBtnID
@@ -32,7 +32,7 @@ End Function
 
 Public Function register()
 	Dim url,result,sMyXmlHTTP
-	url = "http://api.geetest.com/register.php?gt=" + captchaID
+	url = "http://api.geetest.com/register.php?gt=" + 855f4e2ff7260d5175874aadfeb752fd
 	Set sMyXmlHTTP = Server.CreateObject("MSXML2.ServerXMLHTTP")
 	sMyXmlHTTP.Open "GET", url, False
 	sMyXmlHTTP.send
